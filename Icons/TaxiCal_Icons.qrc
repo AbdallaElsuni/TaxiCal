@@ -1,0 +1,43 @@
+<RCC>
+  <qresource prefix="Main">
+    <file>T.png</file>
+    <file>Login2.png</file>
+    <file>AppIcon4.png</file>
+    <file>Account.png</file>
+    <file>Database2.png</file>
+    <file>Database.png</file>
+    <file>Results.png</file>
+    <file>Results2.png</file>
+    <file>Results3.png</file>
+    <file>TaxiCal.png</file>
+  </qresource>
+  <qresource prefix="Buttons">
+    <file>About.png</file>
+    <file>Freepik.png</file>
+    <file>Chatgpt.png</file>
+    <file>MoshWebsite.png</file>
+    <file>YouTube.png</file>
+    <file>Gmail.png</file>
+    <file>RedKey2.png</file>
+    <file>RedKey.png</file>
+    <file>RedLock1.png</file>
+    <file>RedLock2.png</file>
+    <file>RedLockWithPasscode.png</file>
+    <file>Register.png</file>
+    <file>Cancel.png</file>
+    <file>Confirm.png</file>
+    <file>Confirm2.png</file>
+    <file>ChangePasscode.png</file>
+    <file>ChangeID.png</file>
+    <file>Delete.png</file>
+    <file>Generated.png</file>
+    <file>Copied.png</file>
+    <file>Generate.png</file>
+    <file>Copy.png</file>
+    <file>submit.png</file>
+    <file>Cross.png</file>
+    <file>Credentials.png</file>
+    <file>Login_Cropped.png</file>
+    <file>Login.png</file>
+  </qresource>
+</RCC>
