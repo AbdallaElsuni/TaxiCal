@@ -609,9 +609,9 @@ credentials = {}
 variables = {}
 loaded_variables = False
 def load_variables():
-    if os.path.exists("Variables.json"):
+    if os.path.exists("FederalVariables.json"):
         global variables, loaded_variables
-        with open("Variables.json", "r") as file:
+        with open("FederalVariables.json", "r") as file:
             loaded_dictionary = json.load(file)
             if verify_dictionary_integrity(loaded_dictionary):
                 variables = dictionary_to_variables(loaded_dictionary)
