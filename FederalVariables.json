@@ -1,0 +1,47 @@
+{
+    "TaxesVariables.StandardDeduction": {
+        "StandardDeduction.Singles": "1500000",
+        "StandardDeduction.MarriedNoJoint": "15000000",
+        "StandardDeduction.MarriedJoint": "3000000"
+    },
+    "TaxesVariables.BracketSeal": {
+        "MaritalStatus.Single": {
+            "BracketSeal.First": "1192500",
+            "BracketSeal.Second": "4847500",
+            "BracketSeal.Third": "10335000",
+            "BracketSeal.Fourth": "19730000",
+            "BracketSeal.Fifth": "25052500",
+            "BracketSeal.Sixth": "62635000"
+        },
+        "MaritalStatus.MarriedNoJoint": {
+            "BracketSeal.First": "1192500",
+            "BracketSeal.Second": "4847500",
+            "BracketSeal.Third": "10335000",
+            "BracketSeal.Fourth": "19730000",
+            "BracketSeal.Fifth": "25052500",
+            "BracketSeal.Sixth": "62635000"
+        },
+        "MaritalStatus.MarriedJoint": {
+            "BracketSeal.First": "2385000",
+            "BracketSeal.Second": "9695000",
+            "BracketSeal.Third": "20670000",
+            "BracketSeal.Fourth": "39460000",
+            "BracketSeal.Fifth": "50105000",
+            "BracketSeal.Sixth": "75160000"
+        }
+    },
+    "TaxesVariables.Rate": {
+        "Rate.FirstBracket": "0.1",
+        "Rate.SecondBracket": "0.12",
+        "Rate.ThirdBracket": "0.22",
+        "Rate.FourthBracket": "0.24",
+        "Rate.FifthBracket": "0.32",
+        "Rate.SixthBracket": "0.35",
+        "Rate.SeventhBracket": "0.37",
+        "Rate.SocialSecurity": "0.062",
+        "Rate.Medicare": "0.0145"
+    },
+    "TaxesVariables.Others": {
+        "Others.SSWageGap": "17610000"
+    }
+}
