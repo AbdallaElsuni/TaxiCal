@@ -1126,7 +1126,10 @@ class Person:
         return Tax(self.income.value * self.variables[TaxesVariables.Rate][Rate.Medicare])
     @property
     def social_security(self):
-        return Tax(value=(self.income.value * self.variables[TaxesVariables.Rate][Rate.SocialSecurity]))
+        if self.income < self.variables[TaxesVariables.Others][Others.SSWageGap]:
+            return Tax(value=(self.income.value * self.variables[TaxesVariables.Rate][Rate.SocialSecurity]))
+        else:
+            return Tax(value=(self.variables[TaxesVariables.Others][Others.SSWageGap].value * self.variables[TaxesVariables.Rate][Rate.SocialSecurity]))
     @property
     def total_federal(self):
         return Tax(value=Decimal(self.federal_income.value + self.medicare.value + self.social_security.value))
