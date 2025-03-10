@@ -27,7 +27,7 @@ TaxiCal is an open-source **federal tax calculator** that calculates taxes based
 
 ## Installation  
 1. **Download** the latest release from [Releases](https://github.com/AbdallaElsuni/TaxiCal/releases).  
-2. Place `FederalVariables.json` in the same directory for **updated IRS tax brackets**.  
+2. Place `FederalVariables.json` in the same directory (rename it to Variables.json if for 5.0 version and older) for **updated IRS tax brackets**.  
 3. Run:  
    - **Windows**: `TaxiCal.exe`  
    - **Linux/Mac**: `python TaxiCal.py`  
